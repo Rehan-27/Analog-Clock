@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(73, 72, 75) ;
+}
+#clock{
+    position: relative;
+    border: 1rem solid white;
+    margin: auto;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+}
+#hour{
+    position: absolute;
+    background: rgb(14, 202, 5 );
+    width: 1.9%;
+    bottom: 50%;
+    left:49.5%;
+    height: 20%;
+    transform-origin: 50% 100%;
+}
+#min{
+    position: absolute;
+    background: rgb(14, 202, 5 );
+    width: 1.9%;
+    bottom: 50%;
+    left: 49.5%;
+    height: 30%;
+    transform-origin: 50% 100%;
+}
+#sec{
+    position: absolute;
+    background: rgb(247, 5, 24 );
+    width: 1.2%;
+    bottom: 40.5%;
+    left: 50%;
+    height: 48%;
+    transform-origin: 50% 80%;
+}
